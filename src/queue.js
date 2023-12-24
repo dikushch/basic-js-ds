@@ -20,12 +20,6 @@ class Queue {
   }
 
   getUnderlyingList() {
-    // let list = [];
-    // let current = this.head;
-    // while (current.next) {
-    //   list.push(current);
-    //   current = current.next;
-    // }
     return this.head;
   }
 
